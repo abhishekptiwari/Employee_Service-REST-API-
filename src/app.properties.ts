@@ -1,1 +1,0 @@
-export const MONGO_CONNECTION="mongodb+srv://nestuser:2eAYCYOq3BHJZREW@employeeservices.iipb9.mongodb.net/ems?retryWrites=true&w=majority"
