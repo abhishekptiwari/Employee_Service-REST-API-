@@ -4,6 +4,7 @@ import * as mongoose from "mongoose"
 
 export type VehicleDocument = Vehicle & mongoose.Document
 
+
 @Schema()
 export class Vehicle {
     @Prop()
