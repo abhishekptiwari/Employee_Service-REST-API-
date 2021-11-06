@@ -5,6 +5,8 @@ import { EmployeesModule } from './employees/employees.module';
 
 
 @Module({
-  imports: [MongooseModule.forRoot(MONGO_CONNECTION, {useFindAndModify: false}),EmployeesModule],
+  imports: 
+  [MongooseModule.forRoot(MONGO_CONNECTION, {useFindAndModify: false}),EmployeesModule],
 })
-export class AppModule {}
+export class AppModule {
+}
